@@ -36,7 +36,7 @@ public class exerciseArray01 {
       proceed = true;
     }
     
-    // retorna inverso
+    // retorna array em ordem inversa
     System.out.println("Valores do vetor em ordem inversa:");
      for (int i = arraySize - 1; i >= 0; i--) {
       System.out.println(+numberArray[i]);
