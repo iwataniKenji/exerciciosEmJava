@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.NumberFormatException;
 
-public class exerciseArray02 {
+public class ExerciseArray02 {
 
   public static void main(String args[]) {
     InputStreamReader reader = new InputStreamReader(System.in);

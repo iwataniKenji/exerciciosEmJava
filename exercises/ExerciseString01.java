@@ -27,7 +27,8 @@ public class ExerciseString01 {
 
       // contagem de aparições
       for(int i = 0; i < phrase.length(); i++) {
-        if (phrase.charAt(i) == letter) {
+        char temp = Character.toLowerCase(phrase.charAt(i));
+        if (temp == letter) {
           count++;
         }
       }
