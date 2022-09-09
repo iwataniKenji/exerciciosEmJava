@@ -1,6 +1,4 @@
-import Leitura;
 
-package intro;
 public class TstMenu{
 	
 	public static void main(String arg[]) {
