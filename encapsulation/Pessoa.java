@@ -5,6 +5,7 @@ public class Pessoa {
   // encapsulado -> não permite acesso direto
   private int cpf = 0;
   private String nome = "";
+  private Endereco endereco = new Endereco();
   
   // getters -> retorna valor do atributo
   public int getCpf() {
@@ -12,6 +13,9 @@ public class Pessoa {
   }
   public String getNome() {
     return nome;
+  }
+  public Endereco getEndereco() {
+    return endereco;
   }
 
   // setters -> alterar valor do atributo
@@ -25,5 +29,8 @@ public class Pessoa {
   }
   public void setNome(String nome) {
     this.nome = nome;
+  }
+  public void setEndereco(Endereco endereco) {
+    this.endereco = endereco;
   }
 }
