@@ -7,6 +7,20 @@ public class Pessoa {
   private String nome = "";
   private Endereco endereco = new Endereco();
   
+  public Pessoa(){
+    // inicialização dos atributos -> default values -> evita null pointer exception
+    cpf = 151;
+    nome = "Jesus";
+    endereco = new Endereco();
+  }
+
+  // sobrecarga
+  public Pessoa(int cpf, String nome, Endereco endereco){
+    this.cpf = cpf;
+    this.nome = nome;
+    this.endereco = endereco;
+  }
+
   // getters -> retorna valor do atributo
   public int getCpf() {
     return cpf;
