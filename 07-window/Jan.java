@@ -69,6 +69,7 @@ public class Jan implements ActionListener {
       }
     } else if (event.getSource().equals(otherButton)) {
       box.setText("");
+      box.requestFocus();
     }
   }
 }
