@@ -1,7 +1,7 @@
 // NOME: KLEVERSON KENJI IWATANI
 // RA: 2465205
 
-public final class Passeio extends Veiculo {
+public final class Passeio extends Veiculo implements Calc {
   private int qtdePassageiros;
   
   // constructor

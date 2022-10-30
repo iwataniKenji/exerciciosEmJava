@@ -1,7 +1,7 @@
 // NOME: KLEVERSON KENJI IWATANI
 // RA: 2465205
 
-public final class Carga extends Veiculo {
+public final class Carga extends Veiculo implements Calc {
   private int tara;
   private int cargaMax;
 
